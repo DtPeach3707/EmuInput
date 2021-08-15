@@ -6,4 +6,4 @@ The code that I include has a limited amount of keys, as I designed this to play
 
 For the external tool to work properly, you need to change the controls (Up -> I, Down -> K, Left -> J, and Right -> L). This was done so I didn't have to deal with extended scancode keys. 
 
-Additionally, you may need to change around the naming of the files so everything can see each other. I'd follow Bizhawk's External Tool tutorial for help on what should be renamed ( https://github.com/TASVideos/BizHawk-ExternalTools/wiki/Development-quickstart ). Namely, in the csproj file, you may need to change the HintPath variables so the programs can find each other. 
+Additionally, you may need to change around the naming of the files so everything can see each other. I'd follow Bizhawk's External Tool tutorial for help on what should be renamed (https://github.com/TASVideos/BizHawk-ExternalTools/wiki/Development-quickstart). Namely, in the csproj file, you may need to change the HintPath variables so the programs can find each other. 
