@@ -10,4 +10,4 @@ Additionally, you may need to change around the naming of the files so everythin
 
 You will need some C# IDE (I used Visual Studio) to build the tool and include the proper assemblies. If some errors crop up even if the .csproj works perfectly fine, see what assembly refrence you'll need to include (in Visual Studio) by going to Project->Add Assembly Refrence
 
-This definitley has some cleaning up I could do (including needing to fix how it also interprets, and therefore intereferes with, actual key presses, making it a sizable pain to stop), but with my fairly limited knowledge of C# and Visual Studio in general, I don't feel too confident in my abilities to successfully do that. 
+This definitley has some cleaning up I could do (including needing to fix how it also interprets, and therefore intereferes with, actual key presses, making it a sizable pain to stop the tool), but with my fairly limited knowledge of C# and Visual Studio in general, I don't feel too confident in my abilities to successfully do that. 
