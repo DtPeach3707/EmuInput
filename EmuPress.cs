@@ -10,7 +10,7 @@ namespace Net.MyStuff.MyTool
 
 {
 
-	[ExternalTool("MyTool")]
+	[ExternalTool("EmuPress")]
 
 	public sealed class MyToolForm : ToolFormBase, IExternalToolForm
 	{
