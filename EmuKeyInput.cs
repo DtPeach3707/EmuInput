@@ -10,10 +10,12 @@ namespace Net.MyStuff.MyTool
 
 {
 
-	[ExternalTool("EmuKeyInput")]
+	[ExternalTool("EmuKeyInput", Description = MyToolForm.ToolDescription)]
 
 	public sealed class MyToolForm : ToolFormBase, IExternalToolForm
 	{
+		//Description of Tool
+		const string ToolDescription = "Takes high-level virtual keystrokes and turns them into lower-level inputs that Bizhawk responds to";
 		//Structs for SendInput function 
 		[StructLayout(LayoutKind.Sequential)]
 		public struct MouseInput
