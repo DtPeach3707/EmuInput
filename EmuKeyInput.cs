@@ -173,7 +173,7 @@ namespace Net.MyStuff.MyTool
 				}
 			};
 
-			SendInput((uint)inputs.Length, inputs, Marshal.SizeOf(typeof(Input)));
+			SendInput((uint)inputs.Length, inputs, Marshal.SizeOf(typeof(Input))); //Line that sends the input that Bizhawk responds to
 		}
 	}
 }
