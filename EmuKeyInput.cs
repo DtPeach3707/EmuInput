@@ -85,7 +85,7 @@ namespace Net.MyStuff.MyTool
 		{
 			Input[] inputs = new Input[]
 			{
-				new Input
+				new Input //If you wish to add other keys copy here to line 101 and paste it somewhere in the new Input[] space, making sure to change wScan value to the desired single-byte scan code
 				{
 					type = (int)InputType.Keyboard,
 					u = new InputUnion
